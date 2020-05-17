@@ -26,9 +26,9 @@ class Student :  public Person
 		vector<int> testScores;
 	public:
 		Student(string firstname,string lastname,int id,vector<int> scores):Person(firstname,lastname,id)
-	{
-		this->testScores=scores;
-	}   
+		{
+			this->testScores=scores;
+		}   
 
 		char calculate()
 		{
